@@ -12,11 +12,14 @@ namespace Threadpool
             Console.WriteLine("Main thread does some work, then sleeps.");
             Thread.Sleep(1000);
 
-            Console.WriteLine("Main thread exits.");
+
             for (int i = 0; i <10; i++)
             {
                 Console.WriteLine("ghkjnldmwl;md;ư");
             }   
+
+
+
             Console.ReadKey();
 
         }
@@ -26,5 +29,8 @@ namespace Threadpool
             // No state object was passed to QueueUserWorkItem, so stateInfo is null.
             Console.WriteLine("Hello from the thread pool.");
         }
+
+        static void Printf()
+        { Console.WriteLine("nokmceof"); }
     }
 }
