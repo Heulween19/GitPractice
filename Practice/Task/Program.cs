@@ -13,6 +13,7 @@ namespace Threadpool
             Thread.Sleep(1000);
 
             Console.WriteLine("Main thread exits.");
+            //Console.ReadKey();
         }
 
        static void ThreadProc(object state)
