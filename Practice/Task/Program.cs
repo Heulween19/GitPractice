@@ -31,6 +31,13 @@ namespace Threadpool
         }
 
         static void Printf()
-        { Console.WriteLine("nokmceof"); }
+        { 
+            Console.WriteLine("nokmceof"); 
+        }
+
+        static int Add(int a,int b)
+        {
+            return a + b;
+        }
     }
 }
